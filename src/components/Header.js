@@ -29,7 +29,7 @@ const Profile = ({ name, description, profilePicture }) => {
             {prismic.isFilled.richText(name) && (
               <Heading>
                 <PrismicNextLink href="/">
-                  <PrismicText field={name} />
+                  <PrismicText field={"Pulok"} />
                 </PrismicNextLink>
               </Heading>
             )}
